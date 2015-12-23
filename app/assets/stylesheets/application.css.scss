@@ -111,15 +111,15 @@ body {
 }
 
 .newscasts_banner {
-		background-image: url(../img/banner2.jpg);
+		background-image: image-url("banner2.jpg");
 }
 
 .sign_in_banner {
-		background-image: url(../img/signInBanner.jpg);
+		background-image: image-url("signInBanner.jpg");
 }
 
 .sign_up_banner {
-		background-image: url(../img/signInBanner3.jpg);
+		background-image: image-url("signInBanner3.jpg");
 }
 
 .pagination:before, .pagination:after {
@@ -328,7 +328,7 @@ textarea {
 
 @import 'normalize';
 @import 'welcome';
-/*@import 'newscasts';*/
+@import 'newscasts';
 
 
 
